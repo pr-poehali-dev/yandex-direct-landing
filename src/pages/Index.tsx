@@ -270,7 +270,7 @@ const Index = () => {
                 </span>
               </div>
               
-              <div className="flex items-center gap-6 text-gray-600">
+              <div className="flex flex-wrap items-center justify-center gap-6 text-gray-600">
                 <a href="tel:+79894869826" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Icon name="Phone" size={18} />
                   +7 (989) 486-98-26
@@ -278,6 +278,10 @@ const Index = () => {
                 <a href="mailto:Imiraslanov.A@mail.ru" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Icon name="Mail" size={18} />
                   Imiraslanov.A@mail.ru
+                </a>
+                <a href="https://t.me/+79894869826" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+                  <Icon name="Send" size={18} />
+                  Telegram
                 </a>
               </div>
             </div>
