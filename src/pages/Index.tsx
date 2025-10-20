@@ -65,6 +65,16 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
+      <a 
+        href="https://t.me/+79894869826" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 w-16 h-16 bg-gradient-to-br from-[#0088cc] to-[#229ED9] rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all duration-300 hover:shadow-[#0088cc]/50 animate-scale-in"
+        aria-label="Написать в Telegram"
+      >
+        <Icon name="Send" size={28} className="text-white" />
+      </a>
+
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-secondary to-accent opacity-10 animate-gradient bg-[length:200%_200%]"></div>
         
