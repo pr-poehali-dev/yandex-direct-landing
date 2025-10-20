@@ -275,6 +275,10 @@ const Index = () => {
                   <Icon name="Phone" size={18} />
                   +7 (989) 486-98-26
                 </a>
+                <a href="mailto:Imiraslanov.A@mail.ru" className="flex items-center gap-2 hover:text-primary transition-colors">
+                  <Icon name="Mail" size={18} />
+                  Imiraslanov.A@mail.ru
+                </a>
               </div>
             </div>
             
